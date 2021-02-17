@@ -1,0 +1,48 @@
+@use "../setup";
+
+/* ==========================================================================
+   Styling and layout for screen media at 2nd breakpoint
+   ========================================================================== */
+
+@media screen and (min-width: setup.$breakpoint-2) {
+
+    /**
+     * Grid container.
+     */
+
+    .layout-container {
+        display: grid;
+        gap: 0 2em;
+        grid-template-columns: repeat(12, 1fr);
+        align-items: center;
+    }
+
+    /**
+     * Cells for 2 column and 3 column layouts are generated.
+     *
+     * Example HTML:
+     *
+     * <div class="layout-3col"></div>
+     * <div class="layout-3col-2span"></div>
+     */
+
+    .layout-2col {
+        grid-column: span 6;
+    }
+}
+
+
+/* ==========================================================================
+   Styling and layout for screen media at 3rd (final) breakpoint
+   ========================================================================== */
+
+@media screen and (min-width: setup.$breakpoint-3) {
+
+    /**
+     * Larger, but narrowest, CTA text.
+     */
+
+    h1 {
+        font-size: 2.375rem; // 38px / 16px
+    }
+}

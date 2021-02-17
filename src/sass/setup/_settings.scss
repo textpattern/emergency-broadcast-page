@@ -1,0 +1,10 @@
+// typography grid
+
+$base-font-size:      16px !default;
+$base-line-height:    1.5 !default;
+
+// layout grid
+
+$container-max-width: 72rem !default; // 1152px / 16px
+$breakpoint-3:        60rem !default; // 960px / 16px
+$breakpoint-2:        48rem !default; // 768px / 16px

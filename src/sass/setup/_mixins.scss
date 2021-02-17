@@ -1,0 +1,10 @@
+@use "settings";
+
+// hide text
+
+@mixin hide-text {
+    overflow: hidden;
+    text-indent: 110%;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
