@@ -1,7 +1,7 @@
 {
   "name": "emergency-broadcast-page",
   "description": "Textpattern emergency message holding page.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/textpattern/emergency-broadcast-page"

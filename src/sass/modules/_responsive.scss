@@ -10,7 +10,7 @@
      * Grid container.
      */
 
-    .layout-container {
+    .container {
         display: grid;
         gap: 0 2em;
         grid-template-columns: repeat(12, 1fr);
