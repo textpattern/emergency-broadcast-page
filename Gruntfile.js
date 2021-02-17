@@ -11,10 +11,10 @@ module.exports = function (grunt)
         // Set up paths.
         paths: {
             src: {
-                sass: 'src/assets/sass/'
+                sass: 'src/sass/'
             },
             dest: {
-                css: 'public/assets/css/'
+                css: 'dist/css/'
             }
         },
 
