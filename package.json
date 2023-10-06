@@ -19,7 +19,7 @@
     "grunt-contrib-watch": "1.1.0",
     "grunt-sass": "3.1.0",
     "load-grunt-tasks": "5.1.0",
-    "postcss": "8.2.6",
+    "postcss": "8.4.31",
     "sass": "1.32.7"
   },
   "browserslist": [
